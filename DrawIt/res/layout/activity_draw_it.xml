@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/Menu" />
+
+    </LinearLayout>
+            
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"         
+        android:background="#FFFFFF"
+        android:gravity="center">
+              	 
+              	 <Button
+                android:id="@+id/Black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Black" />
+            
+       <Button
+            android:id="@+id/Green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Green" /> 
+            
+       <Button
+            android:id="@+id/Red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Red" /> 
+           
+       	<Button
+         android:id="@+id/Submit"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+       	android:text="@string/Submit" /> 
+    </LinearLayout>
+    
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF">
+    
+    </FrameLayout>   
+</LinearLayout>
